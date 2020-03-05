@@ -1,0 +1,89 @@
+@font-face{
+    font-family: Isidora;
+    src: url('../Fonts/Isidora-Regular.otf') format('truetype');
+}
+
+@font-face{
+    font-family: HankRnd;
+    src: url('../Fonts/HankRnd-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: HankRnd-Bold;
+    src: url('../Fonts/HankRnd-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: HankRnd-Light;
+    src: url('../Fonts/HankRnd-Light.ttf') format('truetype');
+}
+
+
+
+body{
+    font-family: Isidora, HankRnd;
+    font-size: 14px;
+}
+
+.v-header{
+    height:85vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
+  }
+
+.container-r{
+    max-width:960px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align:center;
+  }
+
+.fullscreen-video-wrap{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+  }
+.fullscreen-video-wrap video{
+    min-height:100%;
+    min-width:100%;
+  }
+
+.header-overlay{
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    z-index:1;
+    background:#4d0f28;
+    opacity:0.65;
+    background-size: cover;
+  }
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:50px;
+  margin-bottom:0;
+  margin-top: 120px;
+}
+
+.header-content p{
+  font-size: inherit;
+  display:block;
+  padding-bottom:2rem;
+  font-family: HankRnd-Light;
+}
+
+.header-content img{
+  display: block;
+  margin: inherit;
+}
+
