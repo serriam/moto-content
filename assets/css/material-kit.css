@@ -1116,6 +1116,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  border-top: none;
 }
 
 .col {
@@ -5761,6 +5762,11 @@ button.close {
   border-left-color: rgba(97, 97, 97, 0.9);
 }
 
+@font-face{
+  font-family: HankRnd-Light;
+  src: url('../Fonts/HankRnd-Light.ttf') format('truetype');
+}
+
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
@@ -8686,16 +8692,26 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #2196f3 !important;
+  color: #eb9723 !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #0c7cd5 !important;
+  color: #eb9723 !important;
 }
 
 .text-secondary {
   color: #6c757d !important;
+}
+
+.text-moto{
+  color: #eb9723 !important;
+  font-family: HankRnd-Light;
+}
+
+a.text-moto:hover,
+a.text-moto:focus {
+  color: #eb9723 !important;
 }
 
 a.text-secondary:hover,
